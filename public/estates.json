@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "img_URL": "https://i.ibb.co/zhXch5t/penthouse.jpg",
+      "estate_title": "Luxury Penthouse with Stunning Views",
+      "segment_name": "Penthouse",
+      "description": "Experience luxury living at its finest in this stunning penthouse with panoramic city views. Featuring modern design and premium amenities.",
+      "price": "$5,000,000",
+      "status": "sale",
+      "area": "3000 sq ft",
+      "location": "New York City, NY",
+      "facilities": ["Spacious living room", "Private terrace", "Fitness center"]
+    },
+    {
+      "id": 2,
+      "img_URL": "https://i.ibb.co/N7mWHpZ/beachfront.jpg",
+      "estate_title": "Exclusive Beachfront Villa",
+      "segment_name": "Beachfront properties",
+      "description": "Escape to your own private paradise with this exquisite beachfront villa. Enjoy breathtaking ocean views and direct access to pristine sandy beaches.",
+      "price": "$8,500,000",
+      "status": "sale",
+      "area": "5000 sq ft",
+      "location": "Maui, Hawaii",
+      "facilities": ["Infinity pool", "Beachfront patio", "Gourmet kitchen"]
+    },
+    {
+      "id": 3,
+      "img_URL": "https://i.ibb.co/7y74ck1/resort.jpg",
+      "estate_title": "Luxury Resort Retreat",
+      "segment_name": "Resorts",
+      "description": "Indulge in ultimate relaxation at this luxury resort retreat. Unwind in luxurious accommodations and enjoy world-class amenities.",
+      "price": "$12,000,000",
+      "status": "sale",
+      "area": "10 acres",
+      "location": "Bora Bora, French Polynesia",
+      "facilities": ["Spa and wellness center", "Private beach", "Fine dining restaurants"]
+    },
+    {
+      "id": 4,
+      "img_URL": "https://i.ibb.co/cFjq9M7/island.jpg",
+      "estate_title": "Private Island Paradise",
+      "segment_name": "Private islands",
+      "description": "Escape to your own private island paradise. This exclusive retreat offers unparalleled privacy and luxury amenities for the discerning buyer.",
+      "price": "$20,000,000",
+      "status": "sale",
+      "area": "50 acres",
+      "location": "Caribbean Sea",
+      "facilities": ["Luxury villas", "Helipad", "Marina"]
+    },
+    {
+      "id": 5,
+      "img_URL": "https://i.ibb.co/8XvM5wD/villa.jpg",
+      "estate_title": "Majestic Mediterranean Villa",
+      "segment_name": "Villas",
+      "description": "Live in luxury with this majestic Mediterranean villa boasting breathtaking sea views, lush gardens, and exquisite architecture.",
+      "price": "$7,500,000",
+      "status": "sale",
+      "area": "8000 sq ft",
+      "location": "Côte d'Azur, France",
+      "facilities": ["Grand foyer", "Infinity pool", "Tennis court"]
+    },
+    {
+      "id": 6,
+      "img_URL": "https://i.ibb.co/71rDrRw/mansion.jpg",
+      "estate_title": "Luxurious Mansion Estate",
+      "segment_name": "Mansions",
+      "description": "Experience unparalleled luxury in this exquisite mansion estate. Situated on sprawling grounds, this property offers opulent living spaces and lavish amenities.",
+      "price": "$15,000,000",
+      "status": "sale",
+      "area": "15000 sq ft",
+      "location": "Los Angeles, CA",
+      "facilities": ["Home theater", "Wine cellar", "Gymnasium"]
+    }
+  ]
