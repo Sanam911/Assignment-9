@@ -6,8 +6,9 @@ const Navbar = () => {
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/login'>Login</NavLink></li>
         <li><NavLink to='/register'>Register</NavLink></li>
+        <li><NavLink to='/estate'>Estate</NavLink></li>
     </>
-    
+
     return (
         <div className="navbar bg-violet-50">
             <div className="navbar-start">
@@ -23,10 +24,20 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 font-bold text-violet-500">
-                   {navLinks}
+                    {navLinks}
                 </ul>
             </div>
             <div className="navbar-end">
+
+                <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar tooltip tooltip-bottom " data-tip="user" >
+
+                    <div className="w-10 rounded-full mx-auto" >
+                        <img alt="Tailwind CSS Navbar component" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+
+                    </div>
+
+                </div>
+
                 <a className="btn bg-violet-100 border-none text-xl text-violet-500">Login</a>
             </div>
         </div>
