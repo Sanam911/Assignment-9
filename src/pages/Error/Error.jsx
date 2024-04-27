@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
 
@@ -6,6 +7,9 @@ const Error = () => {
     return (
 
         <div className="font-dancing">
+            <Helmet>
+                <title>Error</title>
+            </Helmet>
            
             <div className="grid min-h-full place-items-center bg-violet-50 px-6 py-24 sm:py-32 lg:px-8 ">
 

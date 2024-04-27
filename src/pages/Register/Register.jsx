@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 
 
 
@@ -58,6 +59,9 @@ const Register = () => {
     return (
 
         <div className="hero min-h-screen bg-base-200 ">
+            <Helmet>
+                <title>Register</title>
+            </Helmet>
 
 
             <div className="w-3/2 lg:w-1/2  shadow-2xl bg-base-100 p-4 rounded-lg">

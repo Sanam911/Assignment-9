@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
 
@@ -13,6 +14,9 @@ const Login = () => {
 
     return (
         <div className="hero min-h-screen bg-base-200">
+            <Helmet>
+                <title>Login</title>
+            </Helmet>
 
 
             <div className="card w-full max-w-sm shadow-2xl bg-base-100">
@@ -36,7 +40,7 @@ const Login = () => {
                         <label className="label">
                             <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                         </label>
-                        <p className="text-centre">Do not have register yet? <Link className="text-violet-500" to='/register'>Regidter Now</Link></p>
+                        <p className="text-centre">Do not have register yet? <Link className="text-violet-500" to='/register'>Register Now</Link></p>
                     </div>
                     <div className="form-control mt-6">
                         <button className="btn bg-violet-300 text-violet-500">Login</button>
