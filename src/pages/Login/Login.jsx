@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 
@@ -9,6 +9,10 @@ const Login = () => {
     const [logInSuccess, setLogInSuccess] = useState('');
     const [logInError, setLogInError] = useState('');
     const [seePass, setSeePass] = useState(false);
+    const location = useLocation();
+    const navigate = useNavigate();
+    console.log(location);
+
 
     const { logIn } = useContext(AuthContext);
     const handleLogin = e => {
@@ -27,6 +31,9 @@ const Login = () => {
             .then(result => {
                 console.log(result.user);
                 setLogInSuccess('Successfully logged in !');
+
+                // navigate after login
+                navigate(location?.state ? location.state : '/' );
 
             })
             .catch(error => {
