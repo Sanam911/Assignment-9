@@ -35,11 +35,11 @@ const Register = () => {
             return;
         }
 
-        // error
+        // clear error
         setRegisterError('');
         setRegisterSuccess('');
 
-        // ceateUser
+        // create User
         createUser(email, password)
             .then(result => {
                 console.log(result.user);
