@@ -6,7 +6,7 @@
       "segment_name": "Penthouse",
       "description": "Experience luxury living at its finest in this stunning penthouse with panoramic city views. Featuring modern design and premium amenities.",
       "price": "$5,000,000",
-      "status": "sale",
+      "status": "Sale",
       "area": "3000 sq ft",
       "location": "New York City, NY",
       "facilities": ["Spacious living room", "Private terrace", "Fitness center"]
@@ -21,6 +21,7 @@
       "status": "sale",
       "area": "5000 sq ft",
       "location": "Maui, Hawaii",
+      "location_Map":"https://www.google.com.bd/maps/place/New+York,+NY,+USA/@40.6975399,-74.3093407,10z/data=!3m1!4b1!4m6!3m5!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728!16zL20vMDJfMjg2?entry=ttu",
       "facilities": ["Infinity pool", "Beachfront patio", "Gourmet kitchen"]
     },
     {
