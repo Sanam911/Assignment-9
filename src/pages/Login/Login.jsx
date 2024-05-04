@@ -20,7 +20,9 @@ const Login = () => {
         console.log(e.currentTarget);
         const form = new FormData(e.currentTarget);
         const email = form.get('email');
-        const password = form.get('password')
+        const password = form.get('password');
+        
+
         console.log(email, password);
 
         // clear error & success

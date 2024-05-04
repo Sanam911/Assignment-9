@@ -12,6 +12,7 @@ const AuthProvider = ({children}) => {
 
     const createUser = (email,password)=>{
         setLoading(true);
+        // eslint-disable-next-line no-undef
         return createUserWithEmailAndPassword(auth, email, password)
     }
 
